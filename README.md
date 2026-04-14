@@ -26,6 +26,7 @@ A secure, high-performance DNS-over-HTTPS (DoH) proxy running on Cloudflare's gl
 ### 1. Fork & Setup Actions
 1. [Fork this project](../../fork) to your GitHub account.
 2. Go to the **Actions** tab in your forked repository and click **I understand my workflows, go ahead and enable them**.
+3. Manually select and **Enable** the following workflows: `Update DNS Blocklists` and `Delete old workflow runs`.
 
 ### 2. Deploy to Cloudflare Pages
 1. Go to [Workers & Pages > Create application > Connect to Git](https://dash.cloudflare.com/?to=/:account/pages/new/provider/github).
